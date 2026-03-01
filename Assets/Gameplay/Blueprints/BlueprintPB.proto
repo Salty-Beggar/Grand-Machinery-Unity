@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Entities;
+
+import "Entities/Saving & Loading/EntityPB.proto";
+import "Entities/Player/Tryan/TryanPB.proto";
+
+message BlueprintPB {
+    repeated EntityPB entities = 1;
+    repeated TryanPB entitiesTryan = 2;
+}

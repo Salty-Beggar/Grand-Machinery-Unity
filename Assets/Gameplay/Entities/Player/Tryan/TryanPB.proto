@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package Entities;
+
+import "Entities/Saving & Loading/EntityPB.proto";
+
+message TryanPB {
+    EntityPB baseEntityParameters = 1;
+}

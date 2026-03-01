@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package Entities;
+    
+message Vector2PB {
+    float x = 1;
+    float y = 2;
+}
+
+message EntityPB {
+    Vector2PB initialPosition = 1;
+}

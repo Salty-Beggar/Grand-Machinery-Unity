@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9205480729108798926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9073470304702879036}
+  - component: {fileID: 9088187950871209728}
+  - component: {fileID: 1787261329066118301}
+  m_Layer: 0
+  m_Name: Tryan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9073470304702879036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205480729108798926}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9088187950871209728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205480729108798926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1fcdcfbd5f15e840b170642bcf3c30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  species: 0
+  idleSprite:
+  - {fileID: 21300000, guid: 509f77dd9dbf0d44095d1a3d3d6b0f75, type: 3}
+  walkingSprite:
+  - {fileID: 1217688676, guid: d1b65d845ebeb7741ad99def6ae14e36, type: 3}
+  - {fileID: -1147813642, guid: d1b65d845ebeb7741ad99def6ae14e36, type: 3}
+  - {fileID: -1659945936, guid: d1b65d845ebeb7741ad99def6ae14e36, type: 3}
+  - {fileID: 1029014607, guid: d1b65d845ebeb7741ad99def6ae14e36, type: 3}
+  - {fileID: 1369983725, guid: d1b65d845ebeb7741ad99def6ae14e36, type: 3}
+  - {fileID: -1245823594, guid: d1b65d845ebeb7741ad99def6ae14e36, type: 3}
+  slashingSprite:
+  - {fileID: -818700129, guid: 5a45d98545f30bc42951d06e69d03da4, type: 3}
+  - {fileID: -762045374, guid: 5a45d98545f30bc42951d06e69d03da4, type: 3}
+  - {fileID: 1030088589, guid: 5a45d98545f30bc42951d06e69d03da4, type: 3}
+--- !u!114 &1787261329066118301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205480729108798926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1e27a2dc54ed24da80ee6c3b6b4078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionMaskStart: {x: -4.764025, y: 0.19657907}
+  CollisionMaskEnd: {x: 7, y: 21}
+  collisionMaskEntity: {fileID: 9088187950871209728}
+  followsObject: 1
